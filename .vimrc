@@ -25,6 +25,8 @@ set mouse=a
 set pastetoggle=<F5>
 set splitbelow
 set splitright
+set exrc
+set secure
 
 set laststatus=2
 set tabstop=4
