@@ -1,0 +1,27 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": [
+    "python",
+    "json",
+    "markdown",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "css",
+    "sass",
+    "scss"
+  ],
+  "coc.preferences.rootPatterns": ["setup.py"],
+  "coc.preferences.willSaveHandlerTimeout": 2000,
+  "javascript.format.enabled": true,
+  "prettier.requireConfig": true,
+  "python.formatting.blackPath": "/usr/local/bin/black",
+  "python.formatting.provider": "black",
+  "python.linting.enabled": true,
+  "python.linting.flake8Enabled": true,
+  "python.linting.flake8Path": "/usr/bin/flake8",
+  "python.pythonPath": "/usr/bin/python3.9",
+  "python.sortImports.path": "/usr/local/bin/isort",
+  "python.venvPath": "/home/anm/virtualenvs",
+  "typescript.format.enabled": true
+}
