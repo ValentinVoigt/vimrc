@@ -106,6 +106,12 @@ set textwidth=80
 set updatetime=300
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip
 
+" Allow copy paste in neovim
+let g:neovide_input_use_logo = 1
+map <D-v> "+p<CR>
+map! <D-v> <C-R>+
+tmap <D-v> <C-R>+
+
 " Highlight same words
 autocmd CursorHold * silent call CocActionAsync('highlight')
 
