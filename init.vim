@@ -155,7 +155,7 @@ lua << EOF
 		extensions = {
 			project = {
 				base_dirs = {
-					'/home/anm/anm',
+					'~/src',
 				},
 			}
 		}
