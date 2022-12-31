@@ -3,5 +3,5 @@
 Use the following code to install:
 
 ```
-curl -o ~/.config/nvim/init.vim --create-dirs https://raw.githubusercontent.com/ValentinVoigt/vimrc/master/init.vim
+curl -o ~/.config/nvim/init.lua --create-dirs https://raw.githubusercontent.com/ValentinVoigt/vimrc/master/init.lua
 ```
